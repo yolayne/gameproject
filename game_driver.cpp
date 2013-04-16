@@ -8,12 +8,14 @@ void manual() {
   // to run the manual tester just run
   // ./fsm_driver --manual
 
-  cout << "Manual Program Begin" << endl;
+  /* cout << "Manual Program Begin" << endl;
   char a = 'A';
   int a_as_int = (int) a;
   cout << a << " vs " << a_as_int << endl;
   cout << 'B' << " vs " << (int) 'B' << endl;
   cout << "Manual Program End" << endl;
+  */
+  main();
 }
 
 SUITE_BEGIN("Game")
@@ -29,7 +31,7 @@ TEST_BEGIN("Game Test")
 
 SUITE_END
 
-int main (int argc, char* argv[])
+ /*int main (int argc, char* argv[])
 {	
   if (argc == 2 && argv[1] == string("--manual")) {
     manual();
@@ -37,3 +39,4 @@ int main (int argc, char* argv[])
     UTFrameworkInit;
   }
 }
+ */
