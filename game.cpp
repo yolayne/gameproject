@@ -18,9 +18,9 @@ int main(){
     do{
       cout << "\nWould you like to play?"<<endl;
       cout << "1 - Yes\n";
-      cout << "2 - WTF\n";
+      cout << "2 - This is so stupid!\n";
       cout << "3 - No\n";
-      cout << "Choose wisely: ";
+      cout << "Choose wisely, ;-) : ";
       getline ( cin, choice_str );
       menu_selection = strtol ( choice_str.c_str(), NULL, 10 );
     }while ( menu_selection < 1 || menu_selection > 3 );
