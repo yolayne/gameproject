@@ -1,1 +1,23 @@
-TEST
+
+
+
+
+
+Intial Ideas:
+We were going to go with a text adventure game because that is really the only thing we could do in the timeframe.
+It was going to be some kind of mystery scenario and then Layne proposed an idea of about an
+"active shooter training module" from the department of homeland security.  
+
+
+
+Pivots:
+Steve started to implement a mystery game and then Layne added to it with a practical scenario.
+
+
+Data Structures:
+Struct for a human: class_human, that has certain attributes of a human, like health or stamina.
+Also perhaps one for a shooter with the same kind of attributes.
+We will be using pointers for moving from one state to another in the game.
+Recursion for losing and then playing again in the previous state.
+
+Hardest Aspect:
